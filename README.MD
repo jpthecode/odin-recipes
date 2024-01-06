@@ -1,3 +1,3 @@
 Welcome! 
 
-This will be my first attempt at creating a webpage base on the guidlines from The Odin Project.
+This will be my first attempt at creating a webpage based on the guidlines from The Odin Project. Enjoy!
