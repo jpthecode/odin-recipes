@@ -1,6 +1,6 @@
 .welcome {
     text-align: center;
-    font-size: 2.8em;
+    font-size: 2.4em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: rgb(229, 95, 18);
     Color: white;
@@ -18,13 +18,20 @@ img {
     
 }
 
+.oatmeal {
+    height: 70%; 
+    width: 550;
+}
+
+
 .recipes:hover {
     color: orange;
 
 }
 
 body {
-    background-color: rgba(72, 209, 161, 0.4)
+    background-color: rgba(72, 209, 161, 0.4);
+    font-size: 1.4em;
 }
 
 .recipes {
@@ -39,3 +46,6 @@ ul {
     padding: auto;
   }
 
+.ingredients {
+    list-style-type: square;
+}
