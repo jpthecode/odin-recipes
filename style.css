@@ -49,3 +49,7 @@ ul {
 .ingredients {
     list-style-type: square;
 }
+
+.figdesc {
+    text-align: center;
+}
