@@ -1,9 +1,11 @@
 .welcome {
-    text-align: center;
     font-size: 2.4em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: rgb(229, 95, 18);
+    background-color: coral;
     Color: white;
+    margin: 0px 350px;
+    padding: 3px;
+    width: max-content;
 }
 
  p {
@@ -11,10 +13,9 @@
 }
 img {
     height: auto; 
-    width: 50%;
+    width: 65%;
     display: block;
-    margin-left: auto;
-    margin-right: auto ;
+    margin: 0 auto;
     
 }
 
@@ -25,26 +26,25 @@ img {
 
 
 .recipes:hover {
-    color: orange;
-
+    color: lightcoral;
 }
 
+.recipes:visited {
+    color: lightcoral;
+}
 body {
     background-color: rgba(72, 209, 161, 0.4);
     font-size: 1.4em;
 }
 
 .recipes {
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  text-align: center;
-  
+  list-style-type: none;
+  display: inline-flex;
+  margin: 15px 60px;
+  padding: 10px auto;
 }
-
-ul {
-    margin: auto;
-    padding: auto;
-  }
 
 .ingredients {
     list-style-type: square;
@@ -53,3 +53,4 @@ ul {
 .figdesc {
     text-align: center;
 }
+
